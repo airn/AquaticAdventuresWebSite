@@ -69,8 +69,18 @@ img {
   right:0;
 }
 
+#banana.title {
+  margin-left: 100%;
+  margin-right: 0;
+}
+
 #para{
   margin-left: 0;
+}
+
+button.banana-button{
+  height: 150px;
+  width: 150px;
 }
 
 .title {
@@ -86,7 +96,7 @@ img {
   margin-right: auto;
 }
 
-.slide:nth-child(2n+1) .title {
+.slide:nth-child(2n+1) {
   margin-left: auto;
   margin-right: 0;
 }
@@ -102,16 +112,10 @@ img {
   text-shadow: 0 2px 2px #000;
 }
 
+
 #title {
   background-image: url("img/beach_photo.jpg");
    background-attachment: inherit;
-}
-
-.location-table h2{
-  text-align: center;
-}
-
-.location-table{
 }
 
 #slide1:before {
@@ -132,99 +136,16 @@ img {
 }
 
 #slide4 {
+  background-image: url("img/pontoon.JPG");
+  background-attachment: fixed;
+}
+
+#slide5:before {
+  background-image: url("img/para.JPG");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide6 {
   background: #222;
-}
-
-
-.cool_btn1 {
-  width: 190px;
-  height: 190px;
-  margin: 15px 15px 15px 15px;
-  position: relative;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3);
-  display: inline-table;
-}
-
-.cool_btn1 h1 {
-  text-align: center;
-  font-size: 60px;
-  position: relative;
-  margin: 20px 0 0 0;
-  color: #333;
-  text-shadow: 0 1px 0 white, 0 -1px 0 rgba(0, 0, 0, 0.5);
-  font-family: 'Lobster', cursive;
-  font-weight: normal;
-  line-height: 1;
-}
-
-.cool_btn1 h2 {
-  font-family: 'Lobster', cursive;
-  font-weight: normal;
-  text-align: center;
-  position: relative;
-  top: 9px;
-  font-size: 60px;
-  line-height: 1;
-  margin: 15px 0 15px 0;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 -1px 0px rgba(0, 0, 0, 0.8);
-  color: #fafafa;
-}
-
-.cool_btn1:after {
-  content: "";
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: absolute;
-  left: -5px;
-  top: -5px;
-  z-index: -1;
-  -webkit-box-shadow: 0 1px 0px rgba(255, 255, 255, 0.9);
-  -moz-box-shadow: 0 1px 0px rgba(255, 255, 255, 0.9);
-  box-shadow: 0 1px 0px rgba(255, 255, 255, 0.9);
-}
-
-/* -------------------
-Transitions
--------------------- */
-/* line 76, ../sass/screen.scss */
-.cool_btn1.blue {
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-/* -------------------
-Colors
--------------------- */
-/* line 84, ../sass/screen.scss */
-.cool_btn1.blue {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d5d5d5), color-stop(50%, #ffffff), color-stop(50%, #577fbd), color-stop(100%, #274281));
-  background-image: -webkit-linear-gradient(#d5d5d5, #ffffff 50%, #577fbd 50%, #274281);
-  background-image: -moz-linear-gradient(#d5d5d5, #ffffff 50%, #577fbd 50%, #274281);
-  background-image: -o-linear-gradient(#d5d5d5, #ffffff 50%, #577fbd 50%, #274281);
-  background-image: linear-gradient(#d5d5d5, #ffffff 50%, #577fbd 50%, #274281);
-}
-/* line 86, ../sass/screen.scss */
-.cool_btn1.blue h1 {
-  color: #4265A3;
-}
-/* line 89, ../sass/screen.scss */
-.cool_btn1.blue h2 {
-  color: #1E3261;
-}
-
-/* line 133, ../sass/screen.scss */
-.cool_btn1.blue:hover {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(43, 95, 187, 0.8);
-  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(43, 95, 187, 0.8);
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(43, 95, 187, 0.8);
 }
