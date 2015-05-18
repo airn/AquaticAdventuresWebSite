@@ -78,17 +78,90 @@ img {
   margin-left: 0;
 }
 
-button.banana-button{
-  height: 150px;
-  width: 150px;
-}
-
 .title {
   width: 50%;
   padding: 5%;
+  text-align: center;
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.aqua {
+  height: 300px;
+  min-height: 300px;
+  background-size: 100% 100%;
+  background-image: url(img/aqua.jpg);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.calypso {
+  height: 300px;
+  min-height: 300px;
+  background-size: 100% 100%;
+  background-image: url(img/Calypso.jpg);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.emerald {
+  height: 300px;
+  min-height: 300px;
+  background-size: 100% 100%;
+  background-image: url(img/Emerald_Beach.jpg);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ocean_reef {
+  height: 300px;
+  min-height: 300px;
+  background-size: 100% 100%;
+  background-image: url(img/Ocean_Reef.jpg);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.splash {
+  height: 300px;
+  min-height: 300px;
+  background-size: 100% 100%;
+  background-image: url(img/Splash.jpg);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sunrise {
+  height: 300px;
+  min-height: 300px;
+  background-size: 100% 100%;
+  background-image: url(img/sunrise.png);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.palazzo {
+  height: 300px;
+  min-height: 300px;
+  background-size: 100% 100%;
+  background-image: url(img/Palazzo.jpg);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ocean_villa {
+  height: 300px;
+  min-height: 300px;
+  background-size: 100% 100%;
+  background-image: url(img/Ocean_Villa.jpg);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h2.location {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .slide:nth-child(2n) {
@@ -108,14 +181,13 @@ button.banana-button{
 .header {
   text-align: center;
   font-size: 175%;
-  color: #fff;
+  color: #F3E1AD;
   text-shadow: 0 2px 2px #000;
 }
 
-
 #title {
   background-image: url("img/beach_photo.jpg");
-   background-attachment: inherit;
+   background-attachment: fixed;
 }
 
 #slide1:before {
@@ -147,5 +219,5 @@ button.banana-button{
 }
 
 #slide6 {
-  background: #222;
+  background: #136A8F;
 }
