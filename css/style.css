@@ -236,10 +236,26 @@ h2.location {
 }
 
 #slide6 {
+  background-image: url("img/sail.jpg");
+  background-attachment: fixed;
+}
+
+#slide7:before {
+  background-image: url("img/dolphin_express.jpg");
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide8 {
+  background-image: url("img/paddle.jpg");
+  background-attachment: fixed;
+}
+
+#slide9 {
   background: #136A8F;
 }
 
-#slide7 {
+#slide10 {
   background: #136A8F;
 }
 
@@ -247,11 +263,11 @@ h2.location {
   margin-top: 25px;
   min-height: 70px;
   background: 50% 50% / cover;
-  background-image: url("img/Facebooklogo.png");
+  background-image: url("img/facebook.jpg");
 }
 
 #twitter {
   min-height: 70px;
   background: 50% 50% / cover;
-  background-image: url("img/Twitter.png");
+  background-image: url("img/Trip.png");
 }
