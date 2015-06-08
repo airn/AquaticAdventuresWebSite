@@ -32,6 +32,25 @@ p {
   color: #134CC6;
 }
 
+#store {
+  font-size: 150%;
+  text-decoration: underline;
+}
+
+p.list-group-item {
+  font-size: 95%;
+}
+
+a.list-group-item {
+  color: #F3E1AD;
+  background-color: #134CC6;
+}
+
+a.list-group-item:hover {
+  color: #F3E1AD;
+  background-color: #204d74;
+}
+
 .slide {
   position: relative;
   padding: 15vh 10%;
@@ -85,6 +104,16 @@ img {
   margin-right: 0;
 }
 
+.list-group-item {
+  border-color: #134CC6;
+  background-color: #134CC6;
+  text-decoration: none;
+}
+
+.list-group-item-text {
+  color: #F3E1AD;
+}
+
 .title {
   width: 50%;
   padding: 5%;
@@ -99,87 +128,6 @@ img {
   border-radius: 35px;
   background: #134CC6;
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
-
-.aqua {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/aqua.jpg);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.calypso {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/Calypso.jpg);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.emerald {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/Emerald_Beach.jpg);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.ocean_reef {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/Ocean_Reef.jpg);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.splash {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/Splash.jpg);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.sunrise {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/sunrise.png);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.palazzo {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/Palazzo.jpg);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.ocean_villa {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/Ocean_Villa.jpg);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.seahaven {
-  height: 300px;
-  min-height: 300px;
-  background-size: 100% 100%;
-  background-image: url(img/seahaven.jpg);
-  color: #ffffff;
-  text-decoration: none;
 }
 
 h2.location {
@@ -276,8 +224,8 @@ h2.location {
 }
 
 #facebook img {
-  width: 80%;
-  height: 145px;
+  width: 500%;
+  height: 20%;
 }
 
 #tripadviser {
@@ -286,6 +234,14 @@ h2.location {
 }
 
 #tripadviser img {
-  width: 100%;
-  height: 120px;
+  width: 550%;
+  height: 20%;
+}
+
+#lighthouse {
+  padding-top: 20px;
+}
+
+#lagoon {
+  padding-top: 20px;
 }

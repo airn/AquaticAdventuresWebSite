@@ -4,11 +4,21 @@
   <link rel="stylesheet" type="text/css" href="js/source.js" />
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 
 <body>
 
   <div class="container-fluid">
+
+      <ul class="nav nav-pills nav-stacked animated bounceInLeft" id="slideNav" hidden>
+        <li id="contactLink" >&nbsp;Contact</li>
+        <li id="objectiveLink">&nbsp;Objective</li>
+        <li id="skillsLink" >&nbsp;Skills</li>
+        <li id="workLink" >&nbsp;Work</li>
+        <li id="schoolLink">&nbsp;Education</li>
+      </ul>
+
       <div class="row">
         <div id="title" class="slide header">
           <div class="col-lg-2"></div>
@@ -179,94 +189,66 @@
 
     <div class="row">
       <div id="slide9" class="slide header">
-        <h1>Our Main Beach Locations</h1>
-        <div class="row">
-          <a href="https://goo.gl/maps/ItmAq">
-            <div class="col-md-4 aqua">
-              <h2>Aqua</h2>
-            </div>
-          </a>
-          <a href="https://goo.gl/maps/IKWN0">
-            <div class="col-md-4 calypso">
-              <h2>Calypso</h2>
-            </div>
-          </a>
-          <a href="https://goo.gl/maps/1I7Lf">
-            <div class="col-md-4 emerald">
-              <h2>Emerald Beach</h2>
-            </div>
-          </a>
-        </div>
-        <div class="row">
-          <a href="https://goo.gl/maps/l43Vh">
-            <div class="col-md-4 ocean_reef">
-              <h2>Ocean Reef</h2>
-            </div>
-          </a>
-          <a href="https://goo.gl/maps/CGE9k">
-            <div class="col-md-4 ocean_villa">
-              <h2>Ocean Villa</h2>
-            </div>
-          </a>
-          <a href="https://goo.gl/maps/ZGtev">
-            <div class="col-md-4 palazzo">
-              <h2>Palazzo</h2>
-            </div>
-          </a>
-        </div>
-        <div class="row">
-          <a href="https://goo.gl/maps/mLHZq">
-            <div class="col-md-4 splash">
-              <h2>Splash</h2>
-            </div>
-          </a>
-          <a href="https://goo.gl/maps/L0Bnt">
-            <div class="col-md-4 sunrise">
-              <h2>Sunrise</h2>
-            </div>
-          </a>
-          <a href="https://goo.gl/maps/fvyqw">
-            <div class="col-md-4 seahaven">
-              <h2>Seahaven</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div id="slide10" class="slide header">
-        <h1>Contact Us</h1>
-        <h2>850-235-8051</h2>
-        <div class="row">
-          <div class="col-lg-6 lighthouse">
-            <h2>Our Two Store Locations</h2>
-            <a href="https://goo.gl/maps/kiSFM">
-              <h4 class="lagoon">Lighthouse Marina</h4>
-              <h4 class="lagoon">5325 N Lagoon Dr</h4>
-              <h4 class="lagoon">Panama City Beach, FL 32408</h4>
+        <div class="col-lg-4">
+          <h2 id="store">Our Main Beach Locations</h2>
+          <div class="list-group beaches">
+            <a href="https://goo.gl/maps/1I7Lf" class="list-group-item">
+              <p class="list-group-item-text">Emerald Beach</p>
+            </a>
+            <a href="https://goo.gl/maps/fvyqw" class="list-group-item">
+              <p class="list-group-item-text">Seahaven</p>
+            </a>
+            <a href="https://goo.gl/maps/L0Bnt" class="list-group-item">
+              <p class="list-group-item-text">Sunrise</p>
+            </a>
+            <a href="https://goo.gl/maps/ItmAq" class="list-group-item">
+              <p class="list-group-item-text">Aqua</p>
+            </a>
+            <a href="https://goo.gl/maps/mLHZq" class="list-group-item">
+              <p class="list-group-item-text">Splash</p>
+            </a>
+            <a href="https://goo.gl/maps/IKWN0" class="list-group-item">
+              <p class="list-group-item-text">Calypso</p>
+            </a>
+            <a href="https://goo.gl/maps/ZGtev" class="list-group-item">
+              <p class="list-group-item-text">Palazzo</p>
+            </a>
+            <a href="https://goo.gl/maps/l43Vh" class="list-group-item">
+              <p class="list-group-item-text">Ocean Reef</p>
+            </a>
+            <a href="https://goo.gl/maps/CGE9k" class="list-group-item">
+              <p class="list-group-item-text">Ocean Villa</p>
             </a>
           </div>
-          <a href="https://www.facebook.com/pages/Aquatic-Adventures/287582209960">
-            <div id="facebook" class="col-lg-4">
-              <img src="css/img/Facebooklogo.png">
-            </div>
-          </a>
         </div>
-
-        <div class="row">
-          <a href="https://goo.gl/maps/YQtxa">
-            <div class="col-lg-6">
-              <h4 class="lagoon">Lagoon Motel</h4>
-              <h4 class="lagoon">5915 N Lagoon Dr</h4>
-              <h4 class="lagoon">Panama City Beach, FL 32408</h4>
+        <div class="col-lg-8">
+          <div class="col-lg-4">
+            <h2>Our Two Store Locations</h2>
+            <div id="lighthouse" class="row">
+              <a href="https://goo.gl/maps/kiSFM">
+                <h4 class="lagoon">Lighthouse Marina</h4>
+                <h4 class="lagoon">5325 N Lagoon Dr</h4>
+                <h4 class="lagoon">Panama City Beach, FL 32408</h4>
+              </a>
             </div>
-          </a>
-          <a href="http://www.tripadvisor.com/Attraction_Review-g34543-d1742472-Reviews-Aquatic_Adventures-Panama_City_Beach_Florida.html">
-            <div id="tripadviser" class="col-lg-4">
-              <img src="css/img/Trip.png">
+            <div id="lagoon" class="row">
+              <a href="https://goo.gl/maps/YQtxa">
+                <h4 class="lagoon">Lagoon Motel</h4>
+                <h4 class="lagoon">5915 N Lagoon Dr</h4>
+                <h4 class="lagoon">Panama City Beach, FL 32408</h4>
+              </a>
             </div>
-          </a>
+          </div>
+          <div class="col-lg-4" style="margin-left: 30px">
+            <h1>Contact Us</h1>
+            <h2>850-235-8051</h2>
+            <div class="list-group">
+              <a class="list-group-item" href="https://www.facebook.com/pages/Aquatic-Adventures/287582209960"><i class="fa fa-facebook-official fa-fw fa-2x list-group-item-text"></i>&nbsp; FaceBook</a>
+              <a class="list-group-item" href="http://www.yelp.com/biz/aquatic-adventures-panama-city-beach-2"><i class="fa fa-yelp fa-fw fa-2x list-group-item-text"></i>&nbsp; Yelp</a>
+              <a class="list-group-item" href="https://plus.google.com/116986772926883677607/about"><i class="fa fa-google-plus-square fa-fw fa-2x list-group-item-text"></i>&nbsp; Google+</a>
+              <a class="list-group-item" href="https://goo.gl/maps/kiSFM"><i class="fa fa-map-marker fa-fw fa-2x list-group-item-text"></i>&nbsp; Directions</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
