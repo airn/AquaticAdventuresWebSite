@@ -37,6 +37,7 @@ p {
   text-decoration: underline;
 }
 
+
 p.list-group-item {
   font-size: 95%;
 }
@@ -112,6 +113,10 @@ img {
 
 .list-group-item-text {
   color: #F3E1AD;
+}
+
+#para.title {
+  width: 65%;
 }
 
 .title {
