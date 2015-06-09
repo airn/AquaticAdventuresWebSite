@@ -12,35 +12,21 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-        background-color: #134CC6;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
+.navbar {
+    padding: 0 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+    background-color: #134CC6;
 }
 
-#toolbar{
-    font-size: larger;
+.top-nav-collapse {
+    padding: 0;
 }
 
-#tool1 {
+.navbar.navbar-header.navbar-brand a {
     color: #F3E1AD;
-}
-
-#tool2 {
-    color: #F3E1AD;
-}
-
-#logo {
-    color: #F3E1AD;
-    font-size: xx-large;
+    font-size: 150%;
 }
 
 .intro-section {
@@ -53,16 +39,10 @@ html {
 
 .fullday {
     height: 100%;
-    min-height: 1050px;
     background-color: #134CC6;
-}
-
-#full {
-    height: 500px;
 }
 
 .halfday {
     height: 100%;
-    min-height: 1050px;
     background-color: #134CC6;
 }
